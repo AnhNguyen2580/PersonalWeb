@@ -8,25 +8,49 @@ export default function Introduction() {
       <h1 className="text-white">
         Hey!<span id="typed"></span>
       </h1>
-      <span className="qa-badge">QA Engineer</span>
+      <span className="qa-badge">QA Automation Engineer</span>
       <h6 style={{ marginTop: '30px' }}>about</h6>
       <p className="pad-bottom-35 wow fadeInUp" data-wow-duration=".6s">
-        I am a dedicated <strong style={{ color: '#8DB393' }}>QA Engineer</strong> with
-        a strong passion for ensuring software quality and reliability. With a solid
-        foundation in Information Systems from the University of Information Technology
-        (VNUHCM), I bring a meticulous eye for detail and a systematic approach to testing.
-        I constantly strive to develop my knowledge, skills, and experience to deliver
-        high-quality products and help organizations achieve their business goals.
+        I am a <strong style={{ color: 'var(--accent-soft)' }}>QA Automation Engineer</strong> who
+        specializes in <strong style={{ color: 'var(--accent-soft)' }}>writing automation scripts
+        with Selenium WebDriver and Appium</strong> to test web and mobile applications across
+        iOS and Android. Over 3+ years I have built and maintained robust, page-object-based
+        test frameworks — designing reusable scripts, data-driven test suites, and stable
+        locators that survive real-world UI churn. My focus is turning manual regression cycles
+        into fast, reliable automated runs wired into CI/CD.
       </p>
       <p className="wow fadeInUp" data-wow-duration=".4s">
-        I enjoy bringing clarity to complex problems with a quality-first approach.
-        Find my work on&nbsp;
+        I write clean, maintainable test code, debug flaky tests, and validate APIs end to end.
+        Find my automation work on&nbsp;
         <a href="https://github.com/AnhNguyen2580" className="goto-social">Github</a>.
-        Experience my social networking activities on&nbsp;
+        Connect with me on&nbsp;
         <a href="https://www.instagram.com/otis_21y/" className="goto-social">Instagram</a>
         &nbsp;&&nbsp;
         <a className="goto-social" href="https://www.facebook.com/tustes.tuans">Facebook</a>.
       </p>
+
+      {/* Automation script showcase */}
+      <div className="code-card wow fadeInUp" data-wow-duration=".6s">
+        <div className="code-head">
+          <span className="code-dot r"></span>
+          <span className="code-dot y"></span>
+          <span className="code-dot g"></span>
+          <span className="code-file">login_test.py — Selenium &amp; Appium</span>
+        </div>
+        <pre><code><span className="c-com"># Web — Selenium WebDriver (Page Object Model)</span>{'\n'}
+<span className="c-key">def</span> <span className="c-fn">test_login_web</span>(driver):{'\n'}
+{'    '}page = <span className="c-fn">LoginPage</span>(driver){'\n'}
+{'    '}page.<span className="c-fn">open</span>(<span className="c-str">"https://app.example.com"</span>){'\n'}
+{'    '}page.<span className="c-fn">login</span>(<span className="c-str">"qa_user"</span>, <span className="c-str">"••••••••"</span>){'\n'}
+{'    '}<span className="c-key">assert</span> page.<span className="c-fn">dashboard_is_visible</span>(){'\n'}
+{'\n'}
+<span className="c-com"># Mobile — Appium (iOS / Android)</span>{'\n'}
+<span className="c-key">def</span> <span className="c-fn">test_login_app</span>(appium_driver):{'\n'}
+{'    '}el = appium_driver.<span className="c-fn">find_element</span>(AppiumBy.ACCESSIBILITY_ID, <span className="c-str">"loginBtn"</span>){'\n'}
+{'    '}<span className="c-fn">WebDriverWait</span>(appium_driver, <span className="c-num">10</span>).<span className="c-fn">until</span>(EC.element_to_be_clickable(el)){'\n'}
+{'    '}el.<span className="c-fn">click</span>(){'\n'}
+{'    '}<span className="c-key">assert</span> appium_driver.<span className="c-fn">find_element</span>(AppiumBy.ID, <span className="c-str">"home"</span>).is_displayed()</code></pre>
+      </div>
 
       {/* Stats */}
       <div className="row" style={{ marginTop: '50px' }}>

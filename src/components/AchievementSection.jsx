@@ -25,7 +25,7 @@ export default function AchievementSection() {
               >
                 <span className="dash-pointer">-</span>
                 <span className="achive-pts">
-                  Codelearn - C++ for Beginners, Advanced C++
+                  Platform and Object-Oriented Programming with C# (2020)
                 </span>
               </li>
               <li
@@ -35,7 +35,7 @@ export default function AchievementSection() {
               >
                 <span className="dash-pointer">-</span>
                 <span className="achive-pts">
-                  Codelearn - Data Structure and Algorithms (DS&A)
+                  International Model United Nations Online Conference (2020)
                 </span>
               </li>
               <li
@@ -59,7 +59,7 @@ export default function AchievementSection() {
               >
                 <span className="dash-pointer">-</span>
                 <span className="achive-pts">
-                  Certificate of WordPress Programming
+                  Presented developmental projects at the 2022 Young Scientists Conference
                 </span>
               </li>
               <li
@@ -69,7 +69,7 @@ export default function AchievementSection() {
               >
                 <span className="dash-pointer">-</span>
                 <span className="achive-pts">
-                  Certificates of excellent students in study and training
+                  Honored pupil for outstanding academic and training performance (2021-2022)
                 </span>
               </li>
               <li

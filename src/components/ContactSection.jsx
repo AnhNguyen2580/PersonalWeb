@@ -69,7 +69,7 @@ export default function ContactSection() {
       <div className="email-direct">
         <p className="wow fadeInRight" data-wow-duration=".4s">
           Or simply email me at&nbsp;
-          <a href="mailto:fulls.anhnt2805dt@gmail.com">anhnt2805dt@gmail.com</a>
+          <a href="mailto:anhnt2805dt@gmail.com">anhnt2805dt@gmail.com</a>
         </p>
       </div>
     </section>

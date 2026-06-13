@@ -8,29 +8,29 @@ export default function SkillsSection() {
 
       <div className="section-intro-card wow fadeInUp" data-wow-duration=".4s">
         <p style={{ margin: 0 }}>
-          As a QA Engineer with a background in Information Systems, I have developed
-          expertise in both manual and automated testing methodologies. My experience
-          spans across various testing tools, frameworks, and CI/CD pipelines. I leverage
-          critical thinking and analytical skills to identify edge cases and deliver
-          reliable, high-quality software products.
+          QA Automation Engineer focused on <strong style={{ color: 'var(--accent-soft)' }}>writing
+          automation scripts with Selenium WebDriver and Appium</strong> for web and mobile
+          (iOS / Android). I design page-object-based, data-driven test frameworks, write stable
+          and reusable scripts, automate regression suites, and validate APIs end to end — wiring
+          it all into CI/CD so tests run fast and reliably on every build.
         </p>
       </div>
 
       <div className="row margin-top-40">
         <div className="col-sm-5 margin-bottom-sm">
-          <span className="progress-cat">Selenium / Appium / Playwright</span>
+          <span className="progress-cat">Selenium WebDriver / Appium</span>
           <div className="progress-bar-graph">
             <div className="progress-bar-wrap">
               <div className="bar-wrap">
-                <span data-width="80">
-                  <strong><i>80</i>%</strong>
+                <span data-width="92">
+                  <strong><i>92</i>%</strong>
                 </span>
               </div>
             </div>
           </div>
         </div>
         <div className="col-sm-offset-1 col-sm-5 margin-bottom-sm">
-          <span className="progress-cat">Postman / REST API Testing</span>
+          <span className="progress-cat">API Testing (Postman / Swagger)</span>
           <div className="progress-bar-graph">
             <div className="progress-bar-wrap">
               <div className="bar-wrap">
@@ -43,32 +43,7 @@ export default function SkillsSection() {
         </div>
         <div className="clearfix"></div>
         <div className="col-sm-5 margin-bottom-sm">
-          <span className="progress-cat">JIRA / Azure DevOps</span>
-          <div className="progress-bar-graph">
-            <div className="progress-bar-wrap">
-              <div className="bar-wrap">
-                <span data-width="85">
-                  <strong><i>85</i>%</strong>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-sm-offset-1 col-sm-5 margin-bottom-sm">
-          <span className="progress-cat">SQL Server / Database Testing</span>
-          <div className="progress-bar-graph">
-            <div className="progress-bar-wrap">
-              <div className="bar-wrap">
-                <span data-width="80">
-                  <strong><i>80</i>%</strong>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="clearfix"></div>
-        <div className="col-sm-5 margin-bottom-sm">
-          <span className="progress-cat">Test Case Design & Management</span>
+          <span className="progress-cat">Jira / Trello / Redmine / Lark Suite</span>
           <div className="progress-bar-graph">
             <div className="progress-bar-wrap">
               <div className="bar-wrap">
@@ -80,12 +55,12 @@ export default function SkillsSection() {
           </div>
         </div>
         <div className="col-sm-offset-1 col-sm-5 margin-bottom-sm">
-          <span className="progress-cat">C# / .NET Unit Testing</span>
+          <span className="progress-cat">MySQL / Oracle / MS SQL Server</span>
           <div className="progress-bar-graph">
             <div className="progress-bar-wrap">
               <div className="bar-wrap">
-                <span data-width="75">
-                  <strong><i>75</i>%</strong>
+                <span data-width="80">
+                  <strong><i>80</i>%</strong>
                 </span>
               </div>
             </div>
@@ -93,24 +68,49 @@ export default function SkillsSection() {
         </div>
         <div className="clearfix"></div>
         <div className="col-sm-5 margin-bottom-sm">
-          <span className="progress-cat">Performance & Load Testing</span>
+          <span className="progress-cat">Test Case Design (Qase.io)</span>
           <div className="progress-bar-graph">
             <div className="progress-bar-wrap">
               <div className="bar-wrap">
-                <span data-width="70">
-                  <strong><i>70</i>%</strong>
+                <span data-width="90">
+                  <strong><i>90</i>%</strong>
                 </span>
               </div>
             </div>
           </div>
         </div>
         <div className="col-sm-offset-1 col-sm-5 margin-bottom-sm">
-          <span className="progress-cat">CI/CD / Git / Jenkins</span>
+          <span className="progress-cat">Charles Proxy / Mobile Debugging</span>
+          <div className="progress-bar-graph">
+            <div className="progress-bar-wrap">
+              <div className="bar-wrap">
+                <span data-width="80">
+                  <strong><i>80</i>%</strong>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="clearfix"></div>
+        <div className="col-sm-5 margin-bottom-sm">
+          <span className="progress-cat">Performance Testing (JMeter)</span>
           <div className="progress-bar-graph">
             <div className="progress-bar-wrap">
               <div className="bar-wrap">
                 <span data-width="75">
                   <strong><i>75</i>%</strong>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-sm-offset-1 col-sm-5 margin-bottom-sm">
+          <span className="progress-cat">HTML/CSS / React.js / Node.js</span>
+          <div className="progress-bar-graph">
+            <div className="progress-bar-wrap">
+              <div className="bar-wrap">
+                <span data-width="70">
+                  <strong><i>70</i>%</strong>
                 </span>
               </div>
             </div>
@@ -153,7 +153,7 @@ export default function SkillsSection() {
             Selenium
           </div>
           <div className="tool-item">
-            <span className="tool-icon pe-7s-config"></span>
+            <span className="tool-icon pe-7s-phone"></span>
             Appium
           </div>
           <div className="tool-item">
@@ -161,20 +161,36 @@ export default function SkillsSection() {
             Postman
           </div>
           <div className="tool-item">
+            <span className="tool-icon pe-7s-network"></span>
+            Swagger
+          </div>
+          <div className="tool-item">
             <span className="tool-icon pe-7s-graph3"></span>
             JMeter
           </div>
-          <div className="tool-item">.
+          <div className="tool-item">
+            <span className="tool-icon pe-7s-shield"></span>
+            Charles Proxy
+          </div>
+          <div className="tool-item">
+            <span className="tool-icon pe-7s-check"></span>
+            Qase.io
+          </div>
+          <div className="tool-item">
             <span className="tool-icon pe-7s-note2"></span>
             JIRA
           </div>
           <div className="tool-item">
-            <span className="tool-icon pe-7s-cloud"></span>
-            Azure DevOps
+            <span className="tool-icon pe-7s-portfolio"></span>
+            Trello
           </div>
           <div className="tool-item">
-            <span className="tool-icon pe-7s-tools"></span>
-            Git
+            <span className="tool-icon pe-7s-config"></span>
+            Android Studio
+          </div>
+          <div className="tool-item">
+            <span className="tool-icon pe-7s-monitor"></span>
+            Xcode
           </div>
           <div className="tool-item">
             <span className="tool-icon pe-7s-server"></span>

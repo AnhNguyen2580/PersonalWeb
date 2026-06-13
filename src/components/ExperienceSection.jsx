@@ -14,31 +14,58 @@ export default function ExperienceSection() {
             <div className="row">
               <div className="wow fadeInRight" data-wow-duration=".4s" data-wow-delay="0s">
                 <div className="col-sm-3 duration">
-                  <span>Sep 2021 - present</span>
+                  <span>Aug 2024 - present</span>
                 </div>
                 <div className="col-sm-9">
                   <span className="job-desn">QA Engineer</span>
-                  <span className="job-loc">Ho Chi Minh City, Viet Nam</span>
+                  <span className="job-loc">Quokka App Company</span>
                   <p className="job-summary p-small">
-                    Responsible for ensuring the quality and reliability of software products
-                    throughout the development lifecycle:
+                    Spearheading end-to-end testing for web and mobile applications
+                    across iOS and Android platforms:
                     <br /><br />
-                    + Design, develop, and execute comprehensive test plans and test cases
-                    <br />+ Perform manual and automated testing (functional, regression, integration, API)
-                    <br />+ Identify, document, and track defects using JIRA and Azure DevOps
-                    <br />+ Write and maintain automated test scripts using Selenium and Appium
-                    <br />+ Conduct API testing using Postman and Swagger
-                    <br />+ Perform database validation and SQL query testing, checking api response on mobile with Charles
-                    <br />+ Participate in Agile/Scrum ceremonies
-                    <br />+ Report test execution results and quality metrics to stakeholders
+                    + Design and develop automated test scripts for web applications using Selenium WebDriver, significantly reducing manual regression testing time
+                    <br />+ Implement mobile automation test suites for iOS and Android using Appium, enhancing test coverage and accelerating release cycles
+                    <br />+ Perform robust API testing to validate system integrations — JSON responses, authentication tokens, status codes, and core logic
+                    <br />+ Proactively identify software defects using Postman and Charles Proxy
+                    <br />+ Log highly reproducible bug reports via Jira and Trello
+                    <br />+ Ensure optimal performance and seamless UI/UX consistency
                   </p>
                   <div className="method-tags" style={{ marginTop: '15px' }}>
                     <span className="method-tag" style={{ fontSize: '10px', padding: '5px 12px' }}>Selenium</span>
                     <span className="method-tag" style={{ fontSize: '10px', padding: '5px 12px' }}>Appium</span>
                     <span className="method-tag" style={{ fontSize: '10px', padding: '5px 12px' }}>Postman</span>
+                    <span className="method-tag" style={{ fontSize: '10px', padding: '5px 12px' }}>Charles Proxy</span>
                     <span className="method-tag" style={{ fontSize: '10px', padding: '5px 12px' }}>JIRA</span>
-                    <span className="method-tag" style={{ fontSize: '10px', padding: '5px 12px' }}>Azure DevOps</span>
-                    <span className="method-tag" style={{ fontSize: '10px', padding: '5px 12px' }}>SQL</span>
+                    <span className="method-tag" style={{ fontSize: '10px', padding: '5px 12px' }}>Trello</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row exp-timeline" style={{ marginTop: '30px' }}>
+          <div className="col-xs-2">
+            <div className="timeline-st"></div>
+          </div>
+          <div className="col-xs-10 exp-content-wrap">
+            <div className="row">
+              <div className="wow fadeInRight" data-wow-duration=".4s" data-wow-delay="0.1s">
+                <div className="col-sm-3 duration">
+                  <span>Mar 2024 — Aug 2024</span>
+                </div>
+                <div className="col-sm-9">
+                  <span className="job-desn">QC Engineer (Part-time)</span>
+                  <span className="job-loc">Ztech Company</span>
+                  <p className="job-summary p-small">
+                    + Collaborated closely with Business Analysts to translate business requirements into structured test plans and test cases using Qase.io
+                    <br />+ Conducted backend API testing utilizing Swagger to ensure secure and accurate data flow
+                    <br />+ Efficiently tracked, managed, and monitored the bug life cycle utilizing Jira and Lark Suite
+                  </p>
+                  <div className="method-tags" style={{ marginTop: '15px' }}>
+                    <span className="method-tag" style={{ fontSize: '10px', padding: '5px 12px' }}>Qase.io</span>
+                    <span className="method-tag" style={{ fontSize: '10px', padding: '5px 12px' }}>Swagger</span>
+                    <span className="method-tag" style={{ fontSize: '10px', padding: '5px 12px' }}>JIRA</span>
+                    <span className="method-tag" style={{ fontSize: '10px', padding: '5px 12px' }}>Lark Suite</span>
                   </div>
                 </div>
               </div>
@@ -53,31 +80,52 @@ export default function ExperienceSection() {
             <div className="row">
               <div className="wow fadeInRight" data-wow-duration=".4s" data-wow-delay="0.2s">
                 <div className="col-sm-3 duration">
-                  <span>Jun 2021 — Sep 2021</span>
+                  <span>Jun 2023 — Dec 2023</span>
                 </div>
                 <div className="col-sm-9">
-                  <span className="job-desn">QA Intern</span>
-                  <span className="job-loc">Ho Chi Minh City, Viet Nam</span>
+                  <span className="job-desn">QA Engineer</span>
+                  <span className="job-loc">Viettel Information Technology Division</span>
                   <p className="job-summary p-small">
-                    Learning the fundamentals of software quality assurance and testing:
-                    <br /><br />
-                    + Software Testing Fundamentals & SDLC
-                    <br />+ Test Case Design Techniques (Equivalence Partitioning, Boundary Value Analysis)
-                    <br />+ Database Fundamentals & SQL for Testers
-                    <br />+ .NET, ASP.NET Core Application Testing
-                    <br />+ Unit Testing & Integration Testing
-                    <br />+ Azure DevOps & CI/CD Pipelines
-                    <br /><br />
-                    Actual work involved:
-                    <br />+ Tested Asset Management Website (ASP.NET Core, ReactJS, Redux, MS SQL Server)
-                    <br />+ Role: QA Team member - Test execution & bug reporting
-                    <br />+ Created and maintained test documentation and test reports
+                    + Monitored multiple projects to ensure strict compliance with established SDLC processes
+                    <br />+ Conducted cross-project quality assessments using standardized evaluation checklists
+                    <br />+ Specialized in non-functional performance testing utilizing JMeter for internal platforms like Viettel Family
+                    <br />+ Authored and distributed comprehensive performance testing guidelines to standardize testing procedures for team members
                   </p>
                   <div className="method-tags" style={{ marginTop: '15px' }}>
-                    <span className="method-tag" style={{ fontSize: '10px', padding: '5px 12px' }}>.NET Core</span>
-                    <span className="method-tag" style={{ fontSize: '10px', padding: '5px 12px' }}>ReactJS</span>
-                    <span className="method-tag" style={{ fontSize: '10px', padding: '5px 12px' }}>SQL Server</span>
-                    <span className="method-tag" style={{ fontSize: '10px', padding: '5px 12px' }}>Azure</span>
+                    <span className="method-tag" style={{ fontSize: '10px', padding: '5px 12px' }}>JMeter</span>
+                    <span className="method-tag" style={{ fontSize: '10px', padding: '5px 12px' }}>Performance Testing</span>
+                    <span className="method-tag" style={{ fontSize: '10px', padding: '5px 12px' }}>SDLC</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row exp-timeline" style={{ marginTop: '30px' }}>
+          <div className="col-xs-2">
+            <div className="timeline-st"></div>
+          </div>
+          <div className="col-xs-10 exp-content-wrap">
+            <div className="row">
+              <div className="wow fadeInRight" data-wow-duration=".4s" data-wow-delay="0.3s">
+                <div className="col-sm-3 duration">
+                  <span>Jun 2022 — Dec 2022</span>
+                </div>
+                <div className="col-sm-9">
+                  <span className="job-desn">Software Tester</span>
+                  <span className="job-loc">NUS Technology</span>
+                  <p className="job-summary p-small">
+                    + Supported the QA team in translating customer requirements into actionable test plans and detailed test cases
+                    <br />+ Performed API testing via Postman and actively managed testing data within MySQL and Oracle databases
+                    <br />+ Logged, tracked, and coordinated bug resolution with the development team utilizing Jira and Redmine
+                    <br />+ Participated in specialized job training focused on JMeter performance testing
+                  </p>
+                  <div className="method-tags" style={{ marginTop: '15px' }}>
+                    <span className="method-tag" style={{ fontSize: '10px', padding: '5px 12px' }}>Postman</span>
+                    <span className="method-tag" style={{ fontSize: '10px', padding: '5px 12px' }}>MySQL</span>
+                    <span className="method-tag" style={{ fontSize: '10px', padding: '5px 12px' }}>Oracle</span>
+                    <span className="method-tag" style={{ fontSize: '10px', padding: '5px 12px' }}>JIRA</span>
+                    <span className="method-tag" style={{ fontSize: '10px', padding: '5px 12px' }}>Redmine</span>
                   </div>
                 </div>
               </div>

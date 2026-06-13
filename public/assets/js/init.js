@@ -191,7 +191,7 @@ var eric = function () {
   /*Typed js start*/
   $('#typed').typed({
     strings: [
-      '^2100&nbsp;I Am TuanAnh.<br/>Fullstack Developer (.NET + ReactJS).<br/> Living in Ho Chi Minh City.',
+      '^2100&nbsp;I Am Tuan Anh.<br/>QA Engineer (Manual + Automation Testing).<br/> Based in Thanh Hoa, Vietnam.',
     ],
     typeSpeed: 30,
     backDelay: 750,

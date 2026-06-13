@@ -5,7 +5,7 @@ export default function Header() {
         <div className="float-left name">
           <a data-scroll href="#body">
             <h1 className="text-dark">NGUYEN TUAN ANH</h1>
-            <span style={{ color: '#8DB393', fontSize: '11px', letterSpacing: '3px', textTransform: 'uppercase', fontWeight: 600 }}>
+            <span style={{ color: '#D99A6C', fontSize: '11px', letterSpacing: '3px', textTransform: 'uppercase', fontWeight: 600 }}>
               QA Engineer
             </span>
           </a>

@@ -7,11 +7,13 @@ export default function QualificationSection() {
       <h6>education</h6>
       <div className="section-intro-card wow fadeInUp" data-wow-duration=".4s">
         <p style={{ margin: 0 }}>
-          I spent 4 years learning Information Systems at the University of
-          Information Technology (VNUHCM), which gave me a strong foundation in
-          software development and quality assurance principles. My academic
-          background combined with practical industry experience has equipped me
-          with the analytical and technical skills essential for a QA Engineer role.
+          I studied Information Systems at the University of Information
+          Technology (VNUHCM), which gave me a strong foundation in software
+          development and quality assurance principles. I was recognized as an
+          honored pupil for outstanding academic and training performance
+          (2021-2022 academic year). My academic background combined with
+          practical industry experience has equipped me with the analytical and
+          technical skills essential for a QA Engineer role.
         </p>
       </div>
       <div className="qualfication-wrap">
@@ -20,7 +22,7 @@ export default function QualificationSection() {
             <span className="row-count"><span>1</span></span>
           </div>
           <div className="col-sm-2">
-            <span className="yr-pers vertical-align-pad">2018-2022</span>
+            <span className="yr-pers vertical-align-pad">2018-2023</span>
           </div>
           <div className="col-sm-5">
             <span className="insti vertical-align-pad">
